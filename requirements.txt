@@ -1,0 +1,11 @@
+# ==============================================================================
+# requirements.txt — Dependensi Proyek Prediksi Kematian Jawa Barat
+# CATATAN: Sengaja menggunakan tflite-runtime (bukan tensorflow penuh)
+#          agar ukuran total package < 250MB (batas gratis Vercel)
+# ==============================================================================
+
+Flask>=3.0.0
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+ai-edge-litert>=1.0.0

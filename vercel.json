@@ -1,0 +1,19 @@
+{
+  "comment": "Konfigurasi Vercel untuk deploy aplikasi Flask (WSGI Python)",
+  "version": 2,
+  "builds": [
+    {
+      "src": "app.py",
+      "use": "@vercel/python",
+      "config": {
+        "maxLambdaSize": "15mb"
+      }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "app.py"
+    }
+  ]
+}

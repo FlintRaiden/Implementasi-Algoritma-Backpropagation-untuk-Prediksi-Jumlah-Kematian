@@ -1,0 +1,25 @@
+# Virtual Environment — JANGAN di-push ke Git
+venv/
+env/
+.env/
+.venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# File sementara sistem
+.DS_Store
+Thumbs.db
+*.log
+
+# Dataset CSV asli (besar, tidak perlu di-push)
+*.csv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
